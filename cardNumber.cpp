@@ -9,16 +9,13 @@ cardNumber::cardNumber(const std::string & input) {
     card_number = input;
 }
 
-int cardNumber::luhn(std::string const & input)
-{
+int cardNumber::luhn(std::string const & input) {
     int check_num = 0;
     bool odd = false;
-    for (auto it = input.rbegin(); it != input.rend(); ++it)
-    {
+    for (auto it = input.rbegin(); it != input.rend(); ++it) {
         auto num = *it - '0';
 
-        if ((odd = !odd))
-        {
+        if ((odd = !odd)) {
             num *= 2;
 
             if (num > 9)

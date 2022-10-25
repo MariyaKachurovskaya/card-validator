@@ -11,7 +11,6 @@ int main() {
     cardNumber card_number(card_string);
     bool checkResult = card_number.checkLuhn(card_string);
 
-    std::cout << "\n";
-    std::cout << "Card number is " << (checkResult ? "correct" : "incorrect");
+    std::cout << "\n" << "Card number is " << (checkResult ? "correct" : "incorrect");
     return 0;
 }

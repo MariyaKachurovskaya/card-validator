@@ -3,4 +3,4 @@ project(card_validator)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(card_validator main.cpp cardNumber.cpp cardNumber.h)
+add_executable(card_validator main.cpp)

@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/79641/Documents/git/card-validator/cmake-build-debug",
-		"source" : "C:/Users/79641/Documents/git/card-validator"
+		"build" : "C:/Users/mtroeglazova/card-validator/cmake-build-debug",
+		"source" : "C:/Users/mtroeglazova/card-validator"
 	},
 	"version" : 
 	{
